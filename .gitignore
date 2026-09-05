@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Data & Models
+data/raw/
+data/processed/*.csv
+!data/processed/validation_predictions.csv
+models/*.pkl
+
+# Auth & System
+users.db
+.DS_Store
